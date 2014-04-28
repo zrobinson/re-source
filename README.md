@@ -5,6 +5,10 @@ re:source
 
 re:source is based on the Laravel PHP framwork. To install the framework dependencies on your system run:
 
+Install composer, if necessary:
+sudo curl -s https://getcomposer.org/installer | sudo php -- --install-dir=/usr/local/bin
+sudo mv /usr/local/bin/composer.phar /usr/local/bin/composer
+
 `php composer.phar install` (or just `composer install` if you've installed composer on your system) 
 
 from the root of the application.
