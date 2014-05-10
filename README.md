@@ -4,15 +4,17 @@ re:source
 ## A Tool Library Management System
 
 If installing onto the project's official Vagrant development virtual machine (https://github.com/torontotoollibrary/re-source-Vagrant), login to the vm with:
-
 `vagrant ssh`
 
 Then clone in the /var/www directory as follows:
-`git clone https://github.com/torontotoollibrary/re-source /var/www`
 
-The project source is based on the Laravel PHP framwork. To install the framework dependencies on your system run, do the following:
+`git clone https://github.com/torontotoollibrary/re-source /var/www/re-source`
 
-Install composer, if necessary:
+The project source is based on the Laravel PHP framwork. 
+
+To install the framework dependencies on your system, 
+
+1. install composer, if necessary:
 `sudo curl -s https://getcomposer.org/installer | sudo php -- --install-dir=/usr/local/bin`
 
 `sudo mv /usr/local/bin/composer.phar /usr/local/bin/composer`
